@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.random_number2).text = "${generateRandomNumber(10)}"
     }
 
-    private fun generateRandomNumber(range: Int): Int {
+    private fun generateRandomNumber(range: Int): Int {{{}}
         return Random().nextInt(10)
     }
 }

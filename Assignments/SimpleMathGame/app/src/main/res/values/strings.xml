@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Simple Math Game</string>
+    <string name="title_text">Simple Math Game</string>
+    <string name="question_text">Is this equation correct?</string>
+    <string name="score_text">Score: %d/%d</string>
+    <string name="streak_text">Streak: %d</string>
+    <string name="feedback_text" />
+    <string name="equation_text">%d %s %d = %d</string>
+    <string name="correct_message">Correct! %d is the right answer.</string>
+    <string name="incorrect_message">Wrong. %d %s %d is %d.</string>
 </resources>
