@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HW2_Pizza</string>
+    <string name="subtotal">Subtotal: $%.2f</string>
+</resources>

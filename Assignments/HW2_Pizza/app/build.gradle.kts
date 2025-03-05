@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.geoquiz"
+    namespace = "com.example.hw2_pizza"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.geoquiz"
+        applicationId = "com.example.hw2_pizza"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -33,9 +33,6 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {
@@ -48,7 +45,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1")
-    implementation("androidx.activity:activity-ktx:1.4.0")
 }
